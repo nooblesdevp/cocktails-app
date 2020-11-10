@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/dashboard">
           <Home />
         </Route>
         <Route path="/cocktail/:id">
@@ -25,7 +25,6 @@ function App() {
           <Error />
         </Route>
       </Switch>
-      <Navbar />
     </Router>
   );
 }
