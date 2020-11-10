@@ -16,3 +16,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+:root {
+  --clr-primary-1: #9ad3bc;
+  --clr-primary-2: #a5d7dd;
+  --clr-primary-3: #f3eac2;
+  --clr-primary-4: #f5b461;
+  --clr-primary-5: #ec524b;
+  --clr-primary-6: #fff;
+}
+
+h3,
+h4,
+h5 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bgColor1 {
+  background: var(--clr-primary-1);
+}
+.bgColor2 {
+  background: var(--clr-primary-2);
+}
+.bgColor3 {
+  background: var(--clr-primary-3);
+}
+.bgColor4 {
+  background: var(--clr-primary-4);
+}
+.bgColor5 {
+  background: var(--clr-primary-5);
+}
+.bgColor6 {
+  background: var(--clr-primary-6);
+}
