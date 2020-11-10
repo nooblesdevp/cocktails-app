@@ -3,9 +3,14 @@ import { useGlobalContext } from "../context";
 
 function SearchForm() {
   const { setSearchTerm } = useGlobalContext();
+
   return (
-    <div>
-      <input type="text" placeholder="search cocktail" />
+    <div className="d-flex">
+      <input
+        type="text"
+        placeholder="search cocktail"
+        className="searchForm-input"
+      />
     </div>
   );
 }

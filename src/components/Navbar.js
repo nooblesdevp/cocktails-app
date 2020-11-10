@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar container d-flex justify-content-between">
-      <div className="nav-center">
+    <div className="navbar bgColor1 container d-flex justify-content-between ">
+      <div className="nav-center ">
         <Link to="/">Cocktail io</Link>
       </div>
       <div>
