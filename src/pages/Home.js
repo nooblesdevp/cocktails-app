@@ -4,7 +4,7 @@ import SearchForm from "../components/SearchForm";
 
 function Home() {
   return (
-    <div>
+    <div className="home container">
       <SearchForm />
       <CocktailList />
     </div>
