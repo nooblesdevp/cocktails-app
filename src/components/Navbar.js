@@ -3,13 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="navbar bgColor1 container d-flex justify-content-between ">
-      <div className="nav-center ">
+    <div className="navbar container  ">
+      <div className="nav-center bgColor5 d-flex align-content-center justify-content-between">
         <Link to="/">Cocktail io</Link>
-      </div>
-      <div>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <Link to="/about">About</Link>
       </div>
     </div>
   );

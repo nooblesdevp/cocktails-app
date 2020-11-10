@@ -6,17 +6,17 @@ import Error from "./components/Error";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import SingleCocktail from "./pages/SingleCocktail";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route path="/" exact>
           <Home />
         </Route>
         <Route path="/cocktail/:id">
-          <Home />
+          <SingleCocktail />
         </Route>
         <Route path="/about">
           <About />
@@ -25,6 +25,7 @@ function App() {
           <Error />
         </Route>
       </Switch>
+      <Navbar />
     </Router>
   );
 }
