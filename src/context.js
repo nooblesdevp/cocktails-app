@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s";
 const AppContext = createContext();
