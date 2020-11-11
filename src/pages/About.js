@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function About() {
   return (
-    <div className="about container bgColor4">
+    <div className="about container bgColor4 pt-4">
       <h1>About Us</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
