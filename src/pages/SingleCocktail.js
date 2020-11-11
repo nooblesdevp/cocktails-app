@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card, ListGroup, ListGroupItem, Table } from "react-bootstrap";
 import SemipolarLoading from "react-loadingg/lib/SemipolarLoading";
 import { useParams } from "react-router-dom";
+import Error from "../components/Error";
 import Navbar from "../components/Navbar";
 
 const url = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
@@ -66,7 +67,7 @@ function SingleCocktail() {
     return <SemipolarLoading />;
   }
   if (!cocktail) {
-    return <h2>no cocktail to display</h2>;
+    return <Error />;
   }
 
   const {
