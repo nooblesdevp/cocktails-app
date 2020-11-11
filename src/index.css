@@ -34,7 +34,11 @@ h5 {
 
 a {
   text-decoration: none;
-  color: #f3eac2;
+  color: var(--clr-primary-3);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--clr-primary-3);
 }
 
 .bgColor1 {
