@@ -1,9 +1,12 @@
 .container {
   width: 375px;
-  overflow-x: hidden;
   overflow-y: scroll;
+  height: 92vh;
   margin: auto;
   position: relative;
+}
+.cocktails-info {
+  overflow-y: scroll;
 }
 
 .searchForm-input {
@@ -17,12 +20,34 @@
 .searchForm-input:focus {
   outline: none;
 }
-.nav-center {
-  height: 10vh;
+.navbar {
+  height: 8vh;
   bottom: 0;
   position: fixed;
-  width: 100%;
-  margin-left: -16px;
+  width: 376px;
+  margin-left: -15px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+}
+.navbar a {
+  flex: 1;
+  font-size: 20px;
+  padding: 17px 25px;
+}
+
+.navbar .active {
+  background: var(--clr-primary-2);
+  color: var(--clr-primary-5);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.cocktail {
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.cocktail:hover {
+  transform: translateY(3px);
 }
 .singleCocktail-card {
   height: 93vh;
@@ -31,4 +56,8 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.about {
+  color: var(--clr-primary-3);
 }
